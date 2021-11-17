@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for n in range(0,99):
+for n in range(0,100):
     print("{:02d},".format(n), end=" ")
-print("{}".format(99), end='\n')
+print(end='\n' if n == 99 else "")
