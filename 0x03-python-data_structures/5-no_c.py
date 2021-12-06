@@ -3,4 +3,4 @@
 
 def no_c(my_string):
     copy_str = [x for x in my_string if x != 'c' or x != 'C']
-    return ("".ord(copy_str))
+    return (" ".join(copy_str))
