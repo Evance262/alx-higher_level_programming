@@ -9,4 +9,4 @@ cur  = db.cursor()
 
 cur.execute("SELECT * FROM states WHERE id = 1")
 
-print("Id: %s -- Title: %s" % cur.fetchone())
+cur.fetchone()
