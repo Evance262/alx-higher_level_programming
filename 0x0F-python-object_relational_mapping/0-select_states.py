@@ -9,4 +9,9 @@ cur  = db.cursor()
 
 cur.execute("SELECT * FROM states WHERE id = 1")
 
-cur.fetchall()
+rows = cur.fetchall()
+
+for row in rows:
+    print("%s" % col)
+
+print("\n")
