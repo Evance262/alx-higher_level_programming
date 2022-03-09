@@ -14,13 +14,14 @@ def main(argv):
     cur = conn.cursor()
     cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%'\
                 ORDER BY id ASC")
-    rows = cur.fetchall()
-    for row in rows:
+    query_rows = cur.fetchall()
+    for row in query_rows:
         print(row)
-        # cleans up the cursor
-        cur.close()
-        # closes the database connection
-        conn.close()
+    pass
+    # cleans up the cursor
+    cur.close()
+    # closes the database connection
+    conn.close()
 
 
 if __name__ == '__main__':
