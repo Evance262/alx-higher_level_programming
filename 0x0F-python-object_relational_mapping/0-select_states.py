@@ -9,4 +9,4 @@ cur  = db.cursor()
 
 cur.execute("SELECT * FROM states WHERE id = 1")
 
-cur.fetchone()
+cur.fetchall()
