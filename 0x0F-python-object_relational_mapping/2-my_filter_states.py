@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Lits states with a name starting with N (upper N)
-from the database hbtn_0e_usa
+Lits states with a name starting with N (upper N) from
+the database hbtn_0e_usa
 """
 import sys
 import MySQLdb
