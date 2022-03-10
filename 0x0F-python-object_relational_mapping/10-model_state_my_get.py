@@ -4,7 +4,6 @@ with the given name
 """
 import sys
 from model_state import Base, State
-from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 
 
